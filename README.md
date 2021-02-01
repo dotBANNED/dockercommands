@@ -170,10 +170,10 @@ APACHE:
 $ docker container run -d -p 8080:80 --name apache httpd
 ```
 
-MONGODB:
+PORTAINER:
 
 ```
-$ docker container run -d -p 27017:27017 --name mongo mongo
+$ sudo docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/Portainer
 ```
 
 MYSQL:
