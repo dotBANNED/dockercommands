@@ -245,15 +245,6 @@ $ docker container start -ai ubuntu
 $ docker container exec -it mysql bash
 ```
 
-### Alpine is a very small Linux distro good for docker
-
-```
-$ docker container run -it alpine sh
-```
-
-(use sh because it does not include bash)
-(alpine uses apk for its package manager - can install bash if you want)
-
 # NETWORKING
 
 ### "bridge" or "docker0" is the default network
